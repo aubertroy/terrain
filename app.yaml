@@ -1,0 +1,35 @@
+runtime: nodejs
+
+env: flex
+#api_version: 1
+#threadsafe: true
+
+#readiness_check:
+ #   app_start_timeout_sec: 300
+
+
+#- url: coupebois
+#  static_dir: coupebois
+#handlers:
+
+#handlers:
+#- url: /coupebois
+#  static_files: coupebois/\1
+#  upload: coupebois/(.*)
+
+#- url: /coupebois
+#  static_dir: coupebois
+
+  
+
+  #static_files: index.html
+  #upload: index.html
+
+#handlers:
+#- url: /
+#  static_files: /index.html
+#  upload: /index.html
+
+#- url: /(.*)
+#  static_files: /\1
+#  upload: /(.*)

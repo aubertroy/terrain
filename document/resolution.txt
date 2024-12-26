@@ -1,0 +1,6 @@
+Sub essai()
+ActiveWindow.Selection.SlideRange(1).Export
+"D:\SiteWeb\finecoupebois2\dev\projet\src\document\echeancier10.jpg","JPG",4000,3000
+End Sub
+
+ ExportBitmapResolution

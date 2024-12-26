@@ -1,0 +1,21 @@
+{
+  "name": "projet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+   
+  "scripts": {
+    "start": "parcel serve src/index.html -p 1234",
+    "build": "parcel build  src/index.html --no-minify --no-cache -d test"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "cssnano": "^5.1.13",
+    "postcss": "^8.4.16"
+  },
+   "files": ["css/", "image/", "pages/" ]
+  
+}

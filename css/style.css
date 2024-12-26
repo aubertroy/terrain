@@ -1,0 +1,57 @@
+body::before
+{
+  display:block;
+  content: '';
+  height:20px;
+}
+@media(min-width:768px)
+{
+  .news-input
+  {
+    width: 50%;
+  } 
+}
+
+.card {
+  height: 300px
+}
+
+/* .card-body {
+  display: flex;
+  flex-direction: column;
+}
+.card-link {
+   margin-top: auto;
+} */
+
+.btn {
+  width: 170px
+}
+
+.navbar-brand
+{
+  font-family: 'Lato', sans-serif;
+  color:yellow;
+  font-size: 24px;
+  margin: 0px;
+}
+
+.navbar-nav
+{
+  font-family: 'Lato', sans-serif;
+  color:yellow;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.section1
+{
+  height: 1500px;
+}
+
+.container1
+{
+  height: 500px;
+} 
+
+
