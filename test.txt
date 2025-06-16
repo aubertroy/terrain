@@ -1,0 +1,3 @@
+git config --global user.email johnsmith@datacamp.com
+1Change username to John Smith:git config --global user.name 'John Smith'If we don't use '' and our user.name has a space:Git would save user.name as John
+git config --global alias.unstage 'reset HEAD'
