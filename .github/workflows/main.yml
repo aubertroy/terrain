@@ -1,0 +1,17 @@
+name: Test de base
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:  # Permet de le lancer manuellement
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Afficher un message
+        run: echo "Le workflow a bien été déclenché 🎉"
