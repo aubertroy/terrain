@@ -24,3 +24,12 @@ h1, h2 {
   margin-bottom: 20px;
   display: block;
 }
+
+.thumbnail-img {
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: cover; /* ou contain si tu préfères tout voir */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 5px;
+}
