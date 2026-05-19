@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "source": "index.html",
   "scripts": {
-    "start": "parcel serve src/index.html -p 1234",
-    "build": "parcel build  src/index.html --no-minify --no-cache -d test"
+    "start": "http-server . -p 1234 -o index.html",
+    "build": "powershell -Command \"if (Test-Path test2) { Remove-Item test2 -Recurse -Force }; New-Item -ItemType Directory test2 -Force | Out-Null; Copy-Item *.html test2; Copy-Item css, js, image, pages test2 -Recurse -Force\""
   },
   "dependencies": {
     "boostrap": "^2.0.0",
@@ -14,7 +15,8 @@
   },
   "devDependencies": {
     "cssnano": "^5.1.13",
-    "postcss": "^8.4.16"
+    "postcss": "^8.4.16",
+    "http-server": "^14.1.1"
   },
   "files": [
     "css/",

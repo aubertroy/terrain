@@ -6,13 +6,15 @@
   <meta name="description" content="Discover the natural appeal, peaceful surroundings, and potential of this land for sale in Bolton-Est. Forest, stream, accessibility and more.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="css/style.css">
-  <script src="/index.js" type="module"></script>
-  <script src="../utils.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="js/jquery-3.7.1.min.js"></script>
+  <script>
+    $(function () {
+      $("#includedContent").load("pages/navigation_a.html");
+      $("#footer").load("pages/footer.html");
+    });
+  </script>
 </head>
 <body>
 
@@ -79,16 +81,25 @@
     </div>
   </section>
 
+  <section class="section bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div>
+          <h2><span class="text-warning">📏 Slope Calculation</span></h2>
+          <p>
+            <strong>Given:</strong> 4 inches at an angle of 5°.<br>
+            <strong>Vertical height:</strong> 4 × sin(5°) ≈ <span class="text-warning">0.35 inches</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <p>For more details, <a href="mailto:aubertroy@hotmail.com">email me</a>.</p>
 
   <div id="footer"></div>
 
-  <script>
-    $(document).ready(function () {
-      $("#includedContent").load("pages/navigation_a.html");
-      $("#footer").load("pages/footer.html");
-    });
-  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 
 </body>
 </html>
