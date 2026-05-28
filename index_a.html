@@ -59,7 +59,8 @@
     <div class="container-xxl" id="container1">
       <div class="d-sm-flex align-items-center justify-content-between h3">
         <div>
-          <h1>Make a <span class="text-warning">dream come true!</span></h1>
+          <h1><span class="text-light">Make a</span> <button type="button" class="btn btn-link p-0 align-baseline border-0 text-warning text-decoration-none" data-bs-toggle="modal" data-bs-target="#dreamHouseModal" aria-label="See what your house could look like">dream</button> <span class="text-light">come true!</span></h1>
+          <p class="lead fs-4 text-warning mb-4">Click on "dream": here is what your house could look like!</p>
           <p class="lead my-3 mr-5 fs-2">
             Located between Knowlton and Magog on Montée Baker Pond, this fully wooded property 
             features a wide frontage of approximately 145 meters and a total area of 128,762 square meters. 
@@ -70,7 +71,21 @@
     </div>
   </section>
 
-                <img class="img-fluid w-80 d-none d-sm-block mx-auto" src="image/terrain825K_a.JPG" alt="View of the land for sale in Bolton-Est"/>
+  <img class="img-fluid w-80 d-none d-sm-block mx-auto" src="image/terrain825K_a.JPG" alt="View of the land for sale in Bolton-Est"/>
+
+  <div class="modal fade" id="dreamHouseModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header border-0 pb-0">
+          <button type="button" class="btn-close btn-close-white ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center pt-0">
+          <img src="image/maison_de_reve.jpg" alt="Here is what your house could look like" class="img-fluid rounded">
+          <p class="lead m-3">Here is what your house could look like!</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div id="footer"></div>
 

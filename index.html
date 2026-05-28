@@ -61,7 +61,8 @@
     <div class="container-xxl" id="container1">
       <div class="d-sm-flex align-items-center justify-content-between h3">
         <div>
-          <h1>Réalisez un <span class="text-warning">rêve !</span></h1>
+          <h1><span class="text-light">Réalisez un</span> <button type="button" class="btn btn-link p-0 align-baseline border-0 text-warning text-decoration-none" data-bs-toggle="modal" data-bs-target="#dreamHouseModal" aria-label="Voir à quoi pourrait ressembler votre maison">rêve</button> <span class="text-light">!</span></h1>
+          <p class="lead fs-4 text-warning mb-4">Cliquez sur « rêve » : voilà à quoi pourrait ressembler votre maison !</p>
           <p class="lead my-3 mr-5 fs-2">Situé entre Knowlton et Magog, sur la Montée de Baker Pond, 
             le terrain est entièrement boisé et présente une large façade d'environ 145 mètres 
             et une superficie de 128 762 mètres carrés. Il est voisin de l'adresse civique 107.
@@ -74,6 +75,20 @@
 
   <img class="img-fluid w-80 d-none d-sm-block mx-auto" src="image/terrain825k.JPG" alt="Vue du terrain à vendre à Bolton-Est"/>
 <p style="white-space: pre-line;"></p>
+
+  <div class="modal fade" id="dreamHouseModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header border-0 pb-0">
+          <button type="button" class="btn-close btn-close-white ms-auto" data-bs-dismiss="modal" aria-label="Fermer"></button>
+        </div>
+        <div class="modal-body text-center pt-0">
+          <img src="image/maison_de_reve.jpg" alt="Voici à quoi pourrait ressembler votre maison" class="img-fluid rounded">
+          <p class="lead m-3">Voici à quoi pourrait ressembler votre maison !</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div id="footer"></div>
   <!-- Bootstrap JS (uniquement version 5) -->
