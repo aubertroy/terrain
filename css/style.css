@@ -55,3 +55,41 @@ h1, h2 {
     opacity: 0;
   }
 }
+/* 
+
+.section-localisation-image {
+    background-image: url('../image/1000007840.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+} */
+
+
+.section-localisation-image {
+    background:
+        linear-gradient(rgba(255,255,255,0.15),
+                        rgba(255,255,255,0.15)),
+        url('../image/1000007840.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* effet parallaxe */
+    padding: 80px 0;
+}
+
+/* .section-localisation-image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255,255,255,0.75);
+}
+
+.section-localisation-image .container {
+    position: relative;
+    z-index: 1;
+} */
+
+.section-localisation-image h2 {
+    color: #f5aa09;
+    font-weight: 800;
+}
