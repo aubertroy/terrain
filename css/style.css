@@ -93,3 +93,14 @@ h1, h2 {
     color: #f5aa09;
     font-weight: 800;
 }
+
+.website-link {
+    color: #2b5c4b;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.website-link i {
+    margin-right: 8px;
+    color: #5b7f5d;
+}
