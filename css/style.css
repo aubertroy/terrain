@@ -7,6 +7,25 @@ body {
   padding: 0;
 }
 
+.site-brand {
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+
+.site-nav-link {
+  font-size: 1.1rem;
+}
+
+@media (min-width: 992px) {
+  .site-brand {
+    font-size: 2rem;
+  }
+
+  .site-nav-link {
+    font-size: 1.5rem;
+  }
+}
+
 .container {
   max-width: 960px;
   margin: auto;
